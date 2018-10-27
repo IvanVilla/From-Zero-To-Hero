@@ -17,6 +17,13 @@ public class Character {
     private String name; //Almacena el nombre
     private int age; //Almacena la edad
     private int gold; //Almacena el oro
+    
+    /**
+     * Incrementa la edad en uno
+     */
+    public void increaseAge(){
+        this.age = this.age + 1;
+    }
 
     // Getters and setters
     public String getFaction() {

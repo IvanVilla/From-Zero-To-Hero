@@ -20,12 +20,15 @@ public class MyFirstClass {
         Character klaussius = new Character();
         klaussius.setName("Klaussius");        
         klaussius.setCharClass("Paladin");
+        klaussius.setAge(39);
+        klaussius.increaseAge();
         Character kotick = new Character();
         kotick.setName("Kotick");
         kotick.setCharClass("Druid");
         
         System.out.println(
                 kotick.getName() + " conoce a " + klaussius.getName());
+        System.out.println("Klaussius tiene " + klaussius.getAge());
     }
     
 }
