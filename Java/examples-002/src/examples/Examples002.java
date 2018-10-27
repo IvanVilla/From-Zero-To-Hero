@@ -39,8 +39,8 @@ public class Examples002 {
         System.out.println(nombre_2);
         // Definir métod JAVA... más abajo definimos la función fuera del ámbito
         // del método MAIN, pero dentro del ámbito de la clase Examples002
-        int numero_5 = 3;
-        int numero_6 = 2;
+        int numero_5 = 43;
+        int numero_6 = 1;
         System.out.println(restar(numero_5, numero_6));
     }
     /**
