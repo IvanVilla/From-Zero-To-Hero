@@ -37,6 +37,24 @@ public class Examples002 {
         System.out.println(nombre_2);
         nombre_2 = "Sombrero";
         System.out.println(nombre_2);
+        // Definir métod JAVA... más abajo definimos la función fuera del ámbito
+        // del método MAIN, pero dentro del ámbito de la clase Examples002
+        int numero_5 = 3;
+        int numero_6 = 2;
+        System.out.println(restar(numero_5, numero_6));
     }
+    /**
+     * Función que resta dos números, hay que usar el static porque es un
+     * requisito de JAVA cuando se definen funciones en la clase principal
+     * @param numero_1 primer parámetro
+     * @param numero_2 segundo parámetro
+     * @return resultado de la resta
+     */
+    public static int restar(int numero_1, int numero_2){
+        int resultado = numero_2 - numero_1;
+        return resultado;
+}
+    
+    
     
 }
