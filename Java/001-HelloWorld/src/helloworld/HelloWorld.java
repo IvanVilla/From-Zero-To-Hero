@@ -6,7 +6,7 @@
 package helloworld;
 
 /**
- * Simple helloworld class
+ * Simple helloworld class 'from zero to hero'
  * @author Klaussius
  */
 public class HelloWorld {
