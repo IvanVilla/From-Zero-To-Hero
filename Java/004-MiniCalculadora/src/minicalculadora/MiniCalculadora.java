@@ -12,10 +12,66 @@ package minicalculadora;
 public class MiniCalculadora {
 
     /**
+     * Hace un test con la calculadora, más abajo están las funciones que hay
+     * que completar
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Suma
+        int suma1 = 21;
+        int suma2 = 21;
+        int sumaTotal = sumar(suma1, suma2);
+        System.out.println("Suma = " + sumaTotal);
+        // Resta
+        int resta1 = 63;
+        int resta2 = 21;
+        int restaTotal = restar(resta1, resta2);
+        System.out.println("Resta = " + restaTotal);
+        // Multipolicar
+        int multiplica1 = 21;
+        int multiplica2 = 2;
+        int multiplicaTotal = restar(multiplica1, multiplica2);
+        System.out.println("Multiplicación = " + restaTotal);        
+    }
+    
+    // TODO... Completar las siguientes funciones
+    
+    /**
+     * Esta función suma números
+     * @param n1 número 1
+     * @param n2 número 2
+     * @return int, suma de n1 y n2
+     */
+    public static int sumar(int n1, int n2){
+        // Pon aquí tu código...
+        
+        int result = 0;
+        return result;
+    }
+    /**
+     * Esta función resta números
+     * @param n1
+     * @param n2
+     * @return int, resultaodo de restar n2 a n1
+     */
+    public static int restar (int n1, int n2){
+        // Pon aquí tu código...
+        
+        int result = 0;
+        return result;        
+    }
+    
+    /**
+     * Esta función multiplica números
+     * @param n1
+     * @param n2
+     * @return int, resultaodo de restar n2 a n1
+     */
+    public static int multiplicar (int n1, int n2){
+        // Pon aquí tu código...
+        
+        int result = 0;
+        return result;
     }
     
 }
