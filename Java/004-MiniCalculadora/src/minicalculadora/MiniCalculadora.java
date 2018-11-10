@@ -31,7 +31,7 @@ public class MiniCalculadora {
         int multiplica1 = 21;
         int multiplica2 = 2;
         int multiplicaTotal = restar(multiplica1, multiplica2);
-        System.out.println("Multiplicación = " + restaTotal);        
+        System.out.println("Multiplicación = " + multiplicaTotal);        
     }
     
     // TODO... Completar las siguientes funciones
