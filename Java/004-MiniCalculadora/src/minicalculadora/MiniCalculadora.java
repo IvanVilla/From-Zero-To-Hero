@@ -27,7 +27,7 @@ public class MiniCalculadora {
         int resta2 = 21;
         int restaTotal = restar(resta1, resta2);
         System.out.println("Resta = " + restaTotal);
-        // Multipolicar
+        // Multiplicar
         int multiplica1 = 21;
         int multiplica2 = 2;
         int multiplicaTotal = restar(multiplica1, multiplica2);
@@ -43,9 +43,9 @@ public class MiniCalculadora {
      * @return int, suma de n1 y n2
      */
     public static int sumar(int n1, int n2){
-        // Pon aquí tu código...
-        
+        // Pon aquí tu código...        
         int result = 0;
+        result = n1 + n2;
         return result;
     }
     /**
@@ -55,9 +55,9 @@ public class MiniCalculadora {
      * @return int, resultaodo de restar n2 a n1
      */
     public static int restar (int n1, int n2){
-        // Pon aquí tu código...
-        
+        // Pon aquí tu código...        
         int result = 0;
+        
         return result;        
     }
     
@@ -68,9 +68,9 @@ public class MiniCalculadora {
      * @return int, resultaodo de restar n2 a n1
      */
     public static int multiplicar (int n1, int n2){
-        // Pon aquí tu código...
-        
+        // Pon aquí tu código...        
         int result = 0;
+        
         return result;
     }
     
